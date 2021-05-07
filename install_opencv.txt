@@ -1,0 +1,13 @@
+- basic infomation is here.
+https://qiita.com/wk_/items/8db529a6b24a955888db
+
+After finish "pip3 install opencv-python",
+please check success.
+$ python3
+>>> import cv2
+
+If import is not success,
+do this command.
+$ sudo apt-get install -y libatlas-base-dev libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev  libqtgui4  libqt4-test
+(Source: https://stackoverflow.com/questions/53347759/importerror-libcblas-so-3-cannot-open-shared-object-file-no-such-file-or-dire)
+
